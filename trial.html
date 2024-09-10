@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Harshil Chennamsetti</h2>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about-portfolio">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main myself banner -->
+    <section id="home" class="myself">
+        
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Harshil Chennamsetti</h1>
+                <h4 class="sub-heading">
+                    A student currently pursuing an undergraduate degree in Computer Science(AI & ML)
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <a href="https://drive.google.com/file/d/1i2Dp2ilgEUONStm004cIZd3pYay77ENo/view?usp=drive_link" class="btn ghost-btn" target="_blank">Get Resume</a>
+            </div>            
+        </div>
+    </section>
+
+<!-- About and Portfolio Section -->
+<section id="about-portfolio" class="about-portfolio">
+    <div class="about">
+        <div class="about-text">
+            <h1>
+                <span style="color: black; font-size: 35px;">About Me</span>
+            </h1>
+            <p class="lead-para"></p>
+            <p>
+                Hi, I'm <span style="color: black; font-style: italic; font-weight: bold; font-size: 26px;">Harshil</span>,
+                a Computer Science student specializing in Artificial Intelligence and Machine Learning at PES University.
+                I'm passionate about technology and always eager to learn something new, which has made me a fast learner and very adaptable to different environments.
+                Beyond coding, I love immersing myself in stories, whether it's through watching shows, reading books, or exploring new places.
+                These experiences fuel my creativity and curiosity, constantly inspiring me with fresh perspectives.
+                I'm always up for a challenge and excited to see where this journey in tech takes me next!
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="myself.png" alt="About Image">
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+        <div class="section-intro">
+            <span style="color: black; font-size: 35px;">Projects</span>
+            <h1>Check Out Some of My Works.</h1>
+            <p class="lead">Most of my work is publicly available on my Github, so for more details, just look up my profile given below</p>
+        </div>
+
+        <!-- Project Section -->
+        <div class="project-wrapper">
+            <div class="project-image">
+                <img src="huffman.png" alt="Image Compression Techniques Project">
+            </div>
+            <div class="project-details">
+                <h2>Image Compression Techniques</h2>
+                <p>This project focuses on various image compression techniques such as PCA (Principal Component Analysis), SVD (Singular Value Decomposition), and Huffman Coding. These techniques are crucial in reducing image file sizes while preserving quality.</p>
+
+                <h3>PCA (Principal Component Analysis)</h3>
+                <p>PCA is a statistical technique that reduces the dimensionality of the data by transforming it into a set of orthogonal components. It's commonly used in lossy compression where some data loss is acceptable, but it effectively captures the essential features of the image.</p>
+
+                <h3>SVD (Singular Value Decomposition)</h3>
+                <p>SVD is a matrix factorization technique that decomposes the image matrix into singular vectors and singular values. It’s widely used for lossy compression by truncating the less important singular values, significantly reducing file size while maintaining image quality.</p>
+
+                <h3>Huffman encoding</h3>
+                <p>Huffman Coding is a lossless compression technique based on the frequency of occurrence of pixels. It assigns shorter codes to more frequent pixel values, ensuring that no data is lost during the compression process.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/harshil-chennamsetti-33407628a/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://github.com/viridi-5">
+                                <i class="fab fa-github "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
